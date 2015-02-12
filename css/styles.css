@@ -1,0 +1,142 @@
+body{
+  background-image: url('images/bkgr_img.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 1024px;
+}
+
+header{
+	color: white;
+	font-family: 'IM Fell DW Pica', serif;
+	font-size: 32px;
+}
+
+#picbox2{
+	float: left;
+  margin-left: 80px;
+  margin-top: 80px
+
+  
+}
+
+#picbox3{
+	float: left;
+  margin-top: 500px;
+  margin-left: -340px;
+}
+
+#picbox5{ 
+  float:right;
+  margin-top:500px;
+  margin-right: 30px;
+}
+
+#picbox6{
+  float:right;
+  margin-right: -360px;
+  margin-top: 80px;
+}
+
+#picbox1{
+  float:left;
+  margin-left:65px;
+  margin-top: 100px;
+
+}
+
+
+
+/*TO MOVE NAVIGATION*/
+nav#tab-navigation { 
+  padding-top: 2rem;
+  padding-left: 2rem; 
+  overflow: hidden; 
+  height: 4rem;
+  width: max-content;
+  margin: 0 auto;
+  margin-left: 725px;
+  margin-top:180px; 
+
+}
+/*TO CHANGE NAV COLORS*/
+nav#tab-navigation a { 
+  font-family: Avenir, Helvetica, sans-serif;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  padding: 0.8rem 2.6rem 2rem 2.6rem;
+  border: 1px solid #777;
+  border-radius: 5px 5px 0 0;
+  background: linear-gradient(black, #ffd85c);
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  letter-spacing: 0.15rem; 
+  text-shadow: 0 1px 0 #000;
+  font-size: 1.4rem;
+  transition: 0.2s transform linear;
+}
+nav#tab-navigation a:nth-child(n+1) {
+  margin-left: -1.2rem;
+  position: relative;
+  z-index: 2;
+}
+a#forefront { 
+  position: relative;
+  top: -0.2rem;
+  z-index: 2; 
+}
+nav#tab-navigation a:hover, nav#tab-navigation a:focus {    
+  transform: translateY(-.4rem); 
+}
+@media screen and (max-width: 800px) {
+  nav#tab-navigation { height: 3rem;
+  }
+  nav#tab-navigation a { 
+  font-size: 1.1rem;
+    padding: 0.8rem 1.4rem 2rem;
+  }
+}
+@media screen and (max-width: 500px) { nav#tab-navigation { height: auto; }
+nav#tab-navigation a { 
+  display: block;
+  margin-top: -1rem; 
+}
+
+/*FOR TEXT BOXES*/
+
+section{
+  float: left;
+  width:400px;
+  height:360px;
+  margin-top: 400px;
+}
+
+.pic {
+  width: 200px;
+  height: 260px;
+}
+
+ #textbox1{
+   color: #fff;
+   background-color: #000;
+   padding:100px;
+   width:300px;
+   height:300px;
+   clear: both;
+  
+ }
+
+ article {
+  float: left;
+  margin: 100px;
+  width:500px;
+  height:300px;
+  color:#fff;
+
+ }
+
+ footer {
+  clear: both;
+  width: 400px;
+ }
+
